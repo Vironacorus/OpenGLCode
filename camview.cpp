@@ -31,7 +31,9 @@ void camera_view::mouse_handling(float moved_by_x, float moved_by_y)
     else if (pitch < -89.0f)
         pitch = -89.0f;
 }
-
+/*
+WTF is that
+*/
 void camera_view::keyboard_handling(unsigned char direction, const float DT)
 {
         float velocity = 10.0f * DT;
